@@ -1,0 +1,33 @@
+{
+  "name": "fuse-test",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$className": "Folder",
+        "$path": "Packages"
+      },
+      "fuse": {
+        "$className":"Folder",
+        "$path": "src"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "fuse-server": {
+        "$className": "Folder",
+        "$path": "lab/server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "fuse-client": {
+          "$path": "lab/client"
+        }
+      }
+    }
+  }
+}
