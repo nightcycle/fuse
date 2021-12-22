@@ -12,22 +12,6 @@
         "$className":"Folder",
         "$path": "src"
       }
-    },
-    "ServerScriptService": {
-      "$className": "ServerScriptService",
-      "fuse-server": {
-        "$className": "Folder",
-        "$path": "lab/server"
-      }
-    },
-    "StarterPlayer": {
-      "$className": "StarterPlayer",
-      "StarterPlayerScripts": {
-        "$className": "StarterPlayerScripts",
-        "fuse-client": {
-          "$path": "lab/client"
-        }
-      }
     }
   }
 }
