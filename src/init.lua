@@ -1,10 +1,12 @@
+-- require(game.ReplicatedStorage.fuse:Clone())(game.StarterGui.ScreenGui)
+
 local fuse = script
--- local packages = fuse.Parent:WaitForChild("Packages")
 local api = require(fuse:WaitForChild("API"))
 local constructor = require(fuse:WaitForChild("Constructor"))
 
 return function(inst)
-	local source = ""
+	local source = "local fusion = require(game.ReplicatedStorage.Packages.fusion)"
+	source = source.."\nlocal synthetic = require(game.ReplicatedStorage.Packages.synthetic)"
 	for i, line in ipairs(constructor.new(inst)) do
 		source = source.."\n"..line
 	end

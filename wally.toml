@@ -1,7 +1,7 @@
 [package]
 name = "nightcycle/fuse"
 description = "A plugin that converts elements into fusion UI code!"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["CJ Oyer <coyer@nightcycle.us>"]
 realm = "shared"
 registry = "https://github.com/upliftgames/wally-index"
@@ -14,3 +14,4 @@ maid = "quenty/maid@^2.0.1-canary"
 signal = "quenty/signal@^2.0.0-canary"
 filter = "nightcycle/filter@^1.0.2"
 attributer = "nightcycle/attributer@1.0.4"
+synthetic = "nightcycle/synthetic@2.0.0"
