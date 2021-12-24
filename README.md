@@ -29,7 +29,7 @@ From there it is recommended you add some basic comments and documentation, as w
 Target UI made in studio:
 
 <p align="center" width="100%">
-  <img height="128em" src="/example.png" alt="import example">
+  <img height="300em" src="/example.png" alt="import example">
 </p>
 <p align="left">
 
