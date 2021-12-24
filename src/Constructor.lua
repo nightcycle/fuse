@@ -31,9 +31,9 @@ function constructor.new(inst)
 				config[k] = v
 			end
 		end
-		table.insert(lines, "synthetic '"..inst.Name.."' {")
+		table.insert(lines, "synthetic '"..inst:GetAttribute("SynthClass").."' {")
 	else
-		table.insert(lines, "fusion.New '"..inst.Name.."' {")
+		table.insert(lines, "fusion.New '"..inst.ClassName.."' {")
 		defaults = fusionDefaults[inst.ClassName] or {}
 	end
 
